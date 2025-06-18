@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExercise", "InterfaceExercise\InterfaceExercise.csproj", "{1C8B983D-F49A-4103-BCD8-2BF96485B3DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,14 @@ Global
 		{1C8B983D-F49A-4103-BCD8-2BF96485B3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C8B983D-F49A-4103-BCD8-2BF96485B3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C8B983D-F49A-4103-BCD8-2BF96485B3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C8B983D-F49A-4103-BCD8-2BF96485B3DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20D7AE83-E092-4A5B-A133-B8994D1A26A8}
 	EndGlobalSection
 EndGlobal
