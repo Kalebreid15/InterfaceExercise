@@ -14,8 +14,8 @@ namespace ConsoleUI
         public string Make { get; set; }
         public string Model { get; set; }
         public bool HasTrunk { get; set; }
-        public string Logo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime DateEstablished { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Logo { get; set; }
+        public DateTime DateEstablished { get; set; }
 
         public void Drive()
 
